@@ -26,3 +26,6 @@ body {
     background-color: #c0d0d0;
   }
 }
+p {
+  padding: 20px;
+}
