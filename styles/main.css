@@ -1,29 +1,28 @@
-
 body {
-    height: 100vh;
-    background: linear-gradient(45deg, #237566, #298798);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #237566, #298798);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #clk-btn {
-    cursor: pointer;
-    padding: 20px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    border: 0;
-    top: 50%;
-    color: #298798;
-    font-size: 30px;
-    box-shadow: 0px 0px 5px 1px #D6D6D6;
-    transition: .25s;
-    &:hover {
-        scale: 1.05;
-        box-shadow: 0px 0px 5px 2px #B6B6B6;
-    }
-    &:active {
-        scale: 1;
-        background-color: #C0D0D0;
-    }
+  cursor: pointer;
+  padding: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 0;
+  top: 50%;
+  color: #298798;
+  font-size: 30px;
+  box-shadow: 0px 0px 5px 1px #d6d6d6;
+  transition: 0.25s;
+  &:hover {
+    scale: 1.05;
+    box-shadow: 0px 0px 5px 2px #b6b6b6;
+  }
+  &:active {
+    scale: 1;
+    background-color: #c0d0d0;
+  }
 }
